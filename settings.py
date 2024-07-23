@@ -1,0 +1,14 @@
+SQUARE = 20
+SNAKE = 20
+MARGIN = SQUARE - SNAKE
+
+WIDTH, HEIGHT = 30, 30
+RES = (SQUARE * WIDTH - MARGIN, SQUARE * HEIGHT - MARGIN)
+
+STARTING_POSITION = STARTING_X, STARTING_Y = 5, 5
+STARTING_SNAKE_SIZE = 3    # !Important: Do not change this value - different starting size snake is not implemented yet
+
+FPS = 60
+MOVES_PER_SECOND = 8
+TIME_BORDER = FPS // MOVES_PER_SECOND
+
